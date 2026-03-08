@@ -2,9 +2,9 @@ name: Build and push to ACR
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ artifacts-with-acr ]
   push:
-    branches: [ main ]
+    branches: [ artifacts-with-acr ]
   workflow_dispatch:
 
 jobs:
